@@ -13,7 +13,7 @@ import { profile, BRAND_GRAD } from '@/lib/content';
    (Or set NEXT_PUBLIC_FORMSPREE_ENDPOINT in .env.local — it wins.)
    ════════════════════════════════════════════════════════════════ */
 const FORMSPREE_ENDPOINT =
-  process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT || 'https://formspree.io/f/YOUR_FORM_ID';
+process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT || 'https://formspree.io/f/mdareadq';
 
 const labelStyle = {
   display: 'flex',
