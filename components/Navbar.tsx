@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { profile, BRAND_GRAD } from '@/lib/content';
+import Image from 'next/image';
 
 const NAV_LINKS = [
   { href: '#about', label: 'About' },
@@ -12,31 +13,15 @@ const NAV_LINKS = [
   { href: '#testimonials', label: 'Reviews' },
 ];
 
-function Logo({ size = 34, fontSize = 19, light = false }: { size?: number; fontSize?: number; light?: boolean }) {
+function Logo() {
   return (
-    <span style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-      <span
-        style={{
-          width: size,
-          height: size,
-          borderRadius: '50%',
-          background: BRAND_GRAD,
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          color: '#fff',
-          fontFamily: 'Sora',
-          fontWeight: 800,
-          fontSize: size * 0.47,
-          boxShadow: '0 8px 18px -6px rgba(255,90,31,0.6)',
-        }}
-      >
-        V
-      </span>
-      <span style={{ fontFamily: 'Sora', fontWeight: 700, fontSize, letterSpacing: '-0.01em', color: light ? '#fff' : undefined }}>
-        Vistado<span style={{ color: '#FF5A1F' }}>.</span>
-      </span>
-    </span>
+    <Image
+      src="/logo.png"
+      alt="Vistado"
+      width={180}
+      height={50}
+      priority
+    />
   );
 }
 
