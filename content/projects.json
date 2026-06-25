@@ -1,0 +1,25 @@
+{
+  "categories": [
+    "All",
+    "Logo Design",
+    "Shopify Stores",
+    "WordPress Websites",
+    "Social Media Designs",
+    "Advertising Creatives",
+    "Packaging Design"
+  ],
+  "items": [
+    { "name": "Aether Coffee Co.", "category": "Logo Design", "image": "/images/projects/project-01.webp", "url": "#" },
+    { "name": "Nova Apparel Store", "category": "Shopify Stores", "image": "/images/projects/project-02.webp", "url": "#" },
+    { "name": "Lumen Skincare", "category": "Packaging Design", "image": "/images/projects/project-03.webp", "url": "#" },
+    { "name": "Verde Organics", "category": "Shopify Stores", "image": "/images/projects/project-04.webp", "url": "#" },
+    { "name": "Atlas Consulting", "category": "WordPress Websites", "image": "/images/projects/project-05.webp", "url": "#" },
+    { "name": "Pulse Fitness Club", "category": "Social Media Designs", "image": "/images/projects/project-06.webp", "url": "#" },
+    { "name": "Bloom Florals", "category": "Advertising Creatives", "image": "/images/projects/project-07.webp", "url": "#" },
+    { "name": "Sienna Fine Jewelry", "category": "Logo Design", "image": "/images/projects/project-08.webp", "url": "#" },
+    { "name": "Drift Eyewear", "category": "Advertising Creatives", "image": "/images/projects/project-09.webp", "url": "#" },
+    { "name": "Maison Décor", "category": "WordPress Websites", "image": "/images/projects/project-10.webp", "url": "#" },
+    { "name": "Frothé Beverages", "category": "Packaging Design", "image": "/images/projects/project-11.webp", "url": "#" },
+    { "name": "Halcyon Studio", "category": "Social Media Designs", "image": "/images/projects/project-12.webp", "url": "#" }
+  ]
+}

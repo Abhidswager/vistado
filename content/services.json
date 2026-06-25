@@ -1,0 +1,50 @@
+[
+  {
+    "num": "01",
+    "title": "Logo Design",
+    "desc": "Professional brand identities and memorable logo designs for businesses of all sizes.",
+    "features": ["Modern Logo Design", "Brand Identity", "Business Branding", "Logo Redesign"],
+    "image": "/images/services/01-logo-design.webp",
+    "imageAlt": "Logo design work"
+  },
+  {
+    "num": "02",
+    "title": "Social Media Design",
+    "desc": "Creative social media graphics that increase engagement and brand visibility.",
+    "features": ["Instagram Posts", "Facebook Ads", "Banner Design", "Promotional Graphics"],
+    "image": "/images/services/02-social-media-design.webp",
+    "imageAlt": "Social media designs"
+  },
+  {
+    "num": "03",
+    "title": "Shopify Website Design",
+    "desc": "Premium Shopify stores built for conversions and customer experience.",
+    "features": ["Store Design", "Theme Customization", "Product Pages", "Landing Pages", "Store Optimization"],
+    "image": "/images/services/03-shopify-website-design.webp",
+    "imageAlt": "Shopify store screenshot"
+  },
+  {
+    "num": "04",
+    "title": "WordPress Website Design",
+    "desc": "Professional business websites built using WordPress.",
+    "features": ["Portfolio Websites", "Business Websites", "Landing Pages", "Blog Websites"],
+    "image": "/images/services/04-wordpress-website-design.webp",
+    "imageAlt": "WordPress website"
+  },
+  {
+    "num": "05",
+    "title": "Banner & Advertising Design",
+    "desc": "High-converting ad creatives for digital marketing campaigns.",
+    "features": ["Meta Ads", "Google Display Ads", "Website Banners", "Promotional Designs"],
+    "image": "/images/services/05-banner-advertising-design.webp",
+    "imageAlt": "Ad creative sample"
+  },
+  {
+    "num": "06",
+    "title": "Packaging Design",
+    "desc": "Premium packaging that improves product perception and brand value.",
+    "features": ["Product Packaging", "Label Design", "Box Design", "Brand Packaging"],
+    "image": "/images/services/06-packaging-design.webp",
+    "imageAlt": "Packaging mockup"
+  }
+]

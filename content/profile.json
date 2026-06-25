@@ -1,0 +1,126 @@
+{
+  "name": "Abhishek Sharma",
+  "firstName": "Abhishek",
+  "lastName": "Sharma",
+  "brand": "Vistado",
+  "role": "Creative Designer & E-commerce Website Specialist",
+  "availability": "Available for new projects",
+  "heroDescription": "I help businesses build strong brands through professional graphic design, high converting Shopify stores, and modern WordPress websites that drive real results.",
+  "heroImage": "/images/profile.jpg",
+  "aboutImage": "/images/about.jpg",
+  "about": {
+    "headingPre": "Designing brands & ",
+    "headingEm": "building stores",
+    "headingPost": " that grow",
+    "paragraphs": [
+      "I am Abhishek Sharma, founder of Vistado, a creative design and e-commerce solutions company. Over the last 2+ years, I have helped startups, local businesses, and e-commerce brands establish a strong online presence through graphic design, branding, Shopify stores, and WordPress websites.",
+      "From designing memorable logos to building complete online stores, my goal is simple — create professional digital experiences that help businesses grow."
+    ]
+  },
+  "badges": [
+    "Shopify Expert",
+    "Graphic Designer",
+    "WordPress Designer",
+    "Brand Identity"
+  ],
+  "heroStats": [
+    { "num": "250+", "label": "Happy Clients" },
+    { "num": "200+", "label": "Shopify Websites Completed" },
+    { "num": "2+", "label": "Years Experience" },
+    { "num": "GST", "label": "Registered Business" }
+  ],
+  "aboutStats": [
+    { "num": "250+", "label": "Total Customers" },
+    { "num": "200+", "label": "Shopify Projects" },
+    { "num": "2+", "label": "Years Experience" },
+    { "num": "GST", "label": "Registered Company" }
+  ],
+  "marqueeWords": [
+    "Logo Design",
+    "Shopify Stores",
+    "WordPress",
+    "Brand Identity",
+    "Social Media",
+    "Packaging",
+    "Advertising",
+    "E-Commerce"
+  ],
+  "tools": [
+    { "name": "Shopify", "pct": 90 },
+    { "name": "Canva", "pct": 95 },
+    { "name": "Photoshop", "pct": 80 },
+    { "name": "WordPress", "pct": 88 },
+    { "name": "Figma", "pct": 75 },
+    { "name": "Illustrator", "pct": 78 }
+  ],
+  "education": [
+    { "school": "Galgotias University", "degree": "Master of Computer Applications", "years": "2021 – 2023" },
+    { "school": "Anugrah Narayan College", "degree": "Bachelor of Science (Electronics)", "years": "2017 – 2020" },
+    { "school": "Sinha Model High School", "degree": "High School", "years": "2015" }
+  ],
+  "experience": [
+    {
+      "company": "Honar Media",
+      "role": "Graphic Designer",
+      "years": "2022 – 2024",
+      "tasks": ["Logo Design", "Social Media Graphics", "Advertising Creatives", "Branding Projects"]
+    },
+    {
+      "company": "Ecom Elite",
+      "role": "Shopify Website Designer",
+      "years": "2024 – Present",
+      "tasks": ["Shopify Store Design", "Theme Customization", "Landing Pages", "Store Optimization", "Client Projects"]
+    }
+  ],
+  "achievements": [
+    {
+      "org": "Deloitte Australia",
+      "title": "Data Analytics Job Simulation",
+      "date": "June 2025",
+      "cred": "Credential ID · P79hNWmZeZsWtHu2s"
+    },
+    {
+      "org": "Fingertips",
+      "title": "Data Science Programme Certificate",
+      "date": "Successfully Completed",
+      "cred": "Verified Completion"
+    }
+  ],
+  "contact": {
+    "founder": "Abhishek Sharma",
+    "brandTagline": "Designing Brands. Building Stores. Growing Businesses.",
+    "email": "hello@vistado.com",
+    "whatsappNumber": "918271989643",
+    "whatsappDisplay": "+91 82719 89643",
+    "whatsappMessage": "Hi Abhishek,\n\nI visited your portfolio and would like to discuss a project.",
+    "location": "India",
+    "gstNote": "GST Registered Business"
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/",
+    "instagram": "https://www.instagram.com/",
+    "behance": "https://www.behance.net/",
+    "facebook": "https://www.facebook.com/",
+    "whatsapp": "https://wa.me/918271989643"
+  },
+  "footerNote": "Designing Brands. Building Stores. Growing Businesses. Helping brands grow through premium graphic design, Shopify stores, and modern WordPress websites.",
+  "seo": {
+    "title": "Abhishek Sharma — Creative Designer & E-commerce Website Specialist | Vistado",
+    "description": "Abhishek Sharma, founder of Vistado, helps brands grow through premium graphic design, high-converting Shopify stores, and modern WordPress websites. 250+ happy clients, 200+ Shopify stores delivered.",
+    "url": "https://vistado.com",
+    "ogImage": "/images/og-image.jpg",
+    "keywords": [
+      "Abhishek Sharma",
+      "Vistado",
+      "Shopify expert",
+      "Shopify website designer",
+      "WordPress website designer",
+      "logo design",
+      "graphic designer",
+      "brand identity",
+      "packaging design",
+      "ecommerce website specialist",
+      "freelance designer India"
+    ]
+  }
+}

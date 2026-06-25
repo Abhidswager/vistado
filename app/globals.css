@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   Base resets — ported 1:1 from the approved design
+   ============================================================ */
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: #F4F1EC;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Manrope', sans-serif;
+  color: #15140F;
+}
+::selection { background: #FF5A1F; color: #fff; }
+input::placeholder, textarea::placeholder { color: rgba(255, 255, 255, 0.45); }
+
+/* ============================================================
+   Keyframes (marquee / float / spin)
+   ============================================================ */
+@keyframes vmarquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@keyframes vspin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+@keyframes vfloat { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+
+/* Hide horizontal scrollbars on the mobile carousels/filters */
+[data-r="testi"]::-webkit-scrollbar,
+[data-r="pf-filter"]::-webkit-scrollbar { display: none; }
+[data-r="burger"] span { transition: transform .35s ease, opacity .25s ease; }
+
+/* ============================================================
+   TABLET & MOBILE — identical breakpoints to the approved design
+   ============================================================ */
+@media (max-width: 860px) {
+  [data-r="nav"] { padding: 9px 9px 9px 18px !important; }
+  [data-r="nav-links"], [data-r="navcta"] { display: none !important; }
+  [data-r="burger"] { display: flex !important; }
+
+  [data-r="hero"] { display: flex; flex-direction: column; align-items: center; padding: 92px 18px 28px !important; }
+  [data-r="hero-text"] { order: 0; width: 100% !important; max-width: 560px !important; }
+  [data-r="hero-portrait"] { order: -1; width: min(290px, 72vw) !important; margin: 0 auto 12px !important; }
+  [data-r="hero-stats"] { order: 1; margin: 34px auto 0 !important; grid-template-columns: repeat(2, 1fr) !important; gap: 12px !important; }
+  [data-r="hero-cta"] { margin-bottom: 4px !important; }
+  [data-badge] { display: none !important; }
+
+  [data-r="about-grid"] { grid-template-columns: 1fr !important; gap: 30px !important; }
+  [data-r="tools-grid"] { grid-template-columns: repeat(3, 1fr) !important; gap: 12px !important; }
+  [data-r="two-grid"] { grid-template-columns: 1fr !important; gap: 18px !important; }
+  [data-r="pf-grid"] { grid-template-columns: repeat(2, 1fr) !important; gap: 16px !important; }
+  [data-r="contact-grid"] { grid-template-columns: 1fr !important; gap: 18px !important; }
+  [data-r="faq-grid"] { grid-template-columns: 1fr !important; gap: 16px !important; }
+  [data-r="faq-side"] { position: static !important; top: auto !important; padding: 28px !important; }
+  [data-r="foot-grid"] { grid-template-columns: 1fr !important; gap: 30px !important; }
+
+  [data-r="testi"] { display: flex !important; overflow-x: auto; scroll-snap-type: x mandatory; gap: 14px !important; padding-bottom: 14px; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  [data-r="testi"] > * { min-width: 84% !important; scroll-snap-align: center; }
+
+  [data-r="pf-filter"] { flex-wrap: nowrap !important; justify-content: flex-start !important; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; padding-bottom: 6px; }
+  [data-r="pf-filter"] > * { flex-shrink: 0; }
+
+  [data-r="card"] { padding: 24px !important; }
+  [data-r="svc-head"] { padding: 20px 18px !important; gap: 14px !important; }
+  [data-r="svc-panel"] { padding-left: 18px !important; padding-right: 18px !important; gap: 22px !important; }
+
+  #top section { padding-top: 60px !important; padding-bottom: 60px !important; padding-left: 18px !important; padding-right: 18px !important; }
+  #top footer { padding-left: 18px !important; padding-right: 18px !important; }
+}
+
+@media (max-width: 560px) {
+  [data-r="form-grid"] { grid-template-columns: 1fr !important; }
+  [data-r="pf-grid"] { grid-template-columns: 1fr !important; }
+  [data-r="tools-grid"] { grid-template-columns: repeat(2, 1fr) !important; }
+  [data-r="svc-img"] { min-height: 150px !important; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
