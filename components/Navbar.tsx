@@ -133,7 +133,7 @@ export default function Navbar() {
             }}
           >
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 36 }}>
-              <Logo size={36} fontSize={20} light />
+              <Logo />
               <button
                 onClick={() => setOpen(false)}
                 aria-label="Close menu"
